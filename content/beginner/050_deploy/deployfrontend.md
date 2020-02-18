@@ -12,13 +12,13 @@ weight: 30
 Copy/Paste the following commands into your Cloud9 workspace:
 
 ```
-cd ~/environment/ecsdemo-frontend
+cd ~/environment/ecsdemo-crystal
 kubectl apply -f kubernetes/deployment.yaml
 kubectl apply -f kubernetes/service.yaml
 ```
 
 We can watch the progress by looking at the deployment status:
 ```
-kubectl get deployment ecsdemo-frontend
+kubectl get deployment ecsdemo-crystal
 ```
 {{% /expand %}}
